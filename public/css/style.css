@@ -1,0 +1,43 @@
+.sc-principal {
+  background-image: url("/images/webtodolistfondo.jpg") !important;
+  background-size: cover;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.fecha {
+  height: 75px;
+  background-color: rgb(23, 74, 23) !important;
+}
+
+.div-lista {
+  padding: 10px;
+  height: auto;
+  background-color: rgb(215, 238, 233) !important;
+}
+
+.input-box {
+  background-image: linear-gradient(rgb(215, 238, 233), rgb(244, 249, 223));
+  margin-left: 6% !important;
+  border-style: none;
+  border-bottom: 1px solid rgb(93, 116, 68) !important;
+}
+
+.title-fecha {
+  font-family: "Satisfy", cursive !important;
+}
+
+input[type="checkbox"]:checked {
+  background-color: rgb(23, 74, 23) !important;
+}
+
+input[type="checkbox"]:checked + label.li-strike {
+  text-decoration: line-through;
+}
+
+input::placeholder {
+  padding-left: 5% !important;
+}
+
+a:hover {
+  color: rgb(23, 74, 23) !important;
+}
